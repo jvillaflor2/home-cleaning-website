@@ -1,0 +1,24 @@
+{
+  "name": "home-cleaning-website",
+  "version": "1.0.0",
+  "description": "Website for a home cleaning service — Node/Express backend, booking form",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jvillaflor2/home-cleaning-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jvillaflor2/home-cleaning-website/issues"
+  },
+  "homepage": "https://github.com/jvillaflor2/home-cleaning-website#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
