@@ -59,6 +59,18 @@ app.post('/booking', (req, res) => {
     });
 });
 
+app.get('/admin/bookings', (req, res) => {
+  fs.readFile('data/bookings.json', 'utf8', (err, data) => {
+    if (err) {
+      console.error('Error reading file:', err);
+      return res.status(500).send('Something went wrong.');
+    }
+
+    const bookings = JSON.parse(data);
+    res.json(bookings);
+  });
+});
+
 app.listen(PORT, () => {
     console.log(`Server running at http://localhost:${PORT}`);
 })
