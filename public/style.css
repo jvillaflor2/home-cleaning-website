@@ -85,3 +85,22 @@ header nav a:hover {
   color: var(--navy-light);
   margin-bottom: 16px;
 }
+
+.pricing {
+  padding: 64px 32px;
+  text-align: center;
+  background: #f4f4f4;
+}
+
+
+.pricing h2 {
+  font-size: 2rem;
+  color: var(--navy);
+  margin-bottom: 32px;
+}
+
+.pricing h3 {
+  font-size: 1.2rem;
+  color: var(--navy-light);
+  margin-bottom: 16px;
+}
