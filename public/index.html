@@ -8,32 +8,33 @@
 <body>
     <header>
         <nav>
-            <a href="services"> Services </a>
-            <a href="pricing"> Pricing </a>
-            <a href="contact"> Contact </a>
+            <a href="index.html"> Services </a>
+            <a href="index.html#services"> Pricing </a>
+            <a href="booking.html#pricing"> Contact </a>
         </nav>
     </header>
 
     <section>
         <h1>Home Cleaning Service</h1>
         <p>Professional, reliable home cleaning and laundry - booking coming soon</p>
-        <a href="booking" class ="btn">Get a quote</a>
+        <a href="booking.html" class ="btn">Get a quote</a>
     </section>
 
-        <h2>Our Services</h2>
-        <h3>Standard Clean</h3>
-        <h3>Deep Clean</h3>
-        <h3>Move-in / Move-out</h3>
-        <h3>Wash, dry , and fold - done for you</h3>
+        <section id="services">
+            <h2>Our Services</h2>
+            <h3>Standard Clean</h3>
+            <h3>Deep Clean</h3>
+            <h3>Move-in / Move-out</h3>
+            <h3>Wash, dry , and fold - done for you</h3>
+        </section>
 
+        <section id="pricing">
+        <h2>Pricing</h2>
+        <h3>Standard Clean - $80</h3>
+        <h3>Deep Clean - $120</h3>
+        <h3>Move-in / Move-out - $150</h3>
+        <h3>Laundry - $30</h3>
+        </section>
 
-    <form action="/booking" method="POST">
-    <input type="text" name="name" placeholder="Your name" required><br>
-    <input type="email" name="email" placeholder="Your email" required><br>
-    <input type="text" name="address" placeholder="Address" required><br>
-    <input type="date" name="preferredDate"><br>
-    <button type="submit">Request a quote</button>
-    </form>
-    
 </body>
 </html>
