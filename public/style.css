@@ -41,6 +41,7 @@ header nav a:hover {
   color: var(--text-light);
   text-align: center;
   font-weight: bold;
+  padding: 80px 32px;
 }
 
 .hero-banner h1 {
@@ -68,4 +69,19 @@ header nav a:hover {
   background: var(--gold-light);
 }
 
+.services {
+  padding: 64px 32px;
+  text-align: center;
+}
 
+.services h2 {
+  font-size: 2rem;
+  color: var(--navy);
+  margin-bottom: 32px;
+}
+
+.services h3 {
+  font-size: 1.2rem;
+  color: var(--navy-light);
+  margin-bottom: 16px;
+}
