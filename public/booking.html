@@ -9,17 +9,28 @@
 <body>
     <header>
         <nav>
-            <a href="index.html">Home</a>
+            <a href="index.html" class="logo-group">
+                <img src="images/logo-2-icon.webp" alt="Housekeeping and Laundry Logo" class="logo">
+                <span class="logo-text">Housekeeping &amp; Laundry</span>
+            </a>
+            <a href="index.html#services">Services</a>
+            <a href="index.html#pricing">Pricing</a>
+            <a href="booking.html">Contact</a>
         </nav>
+
     </header>
 
-    <h1>Request a free quote today</h1>
-    <form action="/booking" method="POST">
-        <input type="text" name="name" placeholder="Your name" required><br>
-        <input type="email" name="email" placeholder="Your email" required><br>
-        <input type="text" name="address" placeholder="Address" required><br>
-        <input type="date" name="preferredDate" required><br>
-        <button type="submit">Request a quote</button>
-    </form>
+    <section class ="booking-page">
+        <h1>Request a free quote today</h1>
+        <p>Fill out the form below and we'll get back to you shortly.</p>
+
+        <form action="/booking" method="POST" class="booking-form">
+            <input type="text" name="name" placeholder="Your name" required>
+            <input type="email" name="email" placeholder="Your email" required>
+            <input type="text" name="address" placeholder="Address" required>
+            <input type="date" name="preferredDate" required>
+            <button type="submit" class="btn">Request a quote</button>
+        </form>
+    </section>
 </body>
 </html>
