@@ -1,5 +1,6 @@
 :root {
   --navy: #091423;
+  --navy-mid: #16273a;  
   --navy-light: #2c3e50;
   --gold: #C9A24B;
   --gold-light: #E0C784;
@@ -37,7 +38,7 @@ header nav a:hover {
 }
 
 .hero-banner {
-  background: var(--navy-light);
+  background: var(--navy-mid);
   color: var(--text-light);
   text-align: center;
   font-weight: bold;
