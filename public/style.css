@@ -1,5 +1,5 @@
 :root {
-  --navy: #1F2A38;
+  --navy: #091423;
   --navy-light: #2c3e50;
   --gold: #C9A24B;
   --gold-light: #E0C784;
@@ -116,4 +116,27 @@ header nav a:hover {
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 24px;
+}
+
+header nav {
+  display:flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.logo {
+  height: 40px;
+  width: auto;
+}
+
+.logo-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-text {
+  color: var(--gold);
+  font-weight: bold;
+  font-size: 1.1rem;
 }
