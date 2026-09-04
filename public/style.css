@@ -91,6 +91,13 @@ header nav a:hover {
   margin-bottom: 16px;
 }
 
+.section-intro {
+  max-width: 700px;
+  margin: 0 auto 80px;
+  color: #666;
+  font-size: 1rem;
+}
+
 .pricing {
   padding: 64px 32px;
   text-align: center;
@@ -114,13 +121,18 @@ header nav a:hover {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 24px;
+  align-items: start;
 }
 
 .card {
-  background: white;
-  border: 1px solid #ddd;
+  background: var(--navy);
+  border: none;
+  color: var(--gold);
   border-radius: 8px;
   padding: 24px;
+}
+.card h3 {
+  color: var(--gold);
 }
 
 .card-img {
@@ -129,6 +141,31 @@ header nav a:hover {
   object-fit: cover;
   border-radius: 4px;
   margin-bottom: 16px;
+}
+.card-list {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  font-size: 0.9rem;
+  color: #cdd3da;
+  max-height: 0;
+  margin-top: 8px;
+  margin-bottom: 6px;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.card-list li::before {
+  content: '✓';
+  color: var(--gold);
+}
+
+.card.expanded .card-list {
+  max-height: 300px;
+}
+
+.card {
+  cursor: pointer;
 }
 
 header nav {
