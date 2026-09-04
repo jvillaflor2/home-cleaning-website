@@ -104,3 +104,16 @@ header nav a:hover {
   color: var(--navy-light);
   margin-bottom: 16px;
 }
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 24px;
+}
+
+.card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 24px;
+}
