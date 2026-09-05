@@ -19,6 +19,9 @@ body {
   font-family: 'Poppins', Arial, sans-serif;
   color: #333;
   line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -230,6 +233,7 @@ header nav {
   margin: 64px auto;
   padding: 0 32px;
   text-align: center;
+  flex:1 ;
 }
 
 .booking-page h1 {
@@ -259,6 +263,30 @@ header nav {
 .booking-form input:focus {
   outline: none;
   border-color: var(--gold);
+}
+
+.site-footer {
+  background: var(--navy);
+  color: #999;
+  text-align: center;
+  padding: 32px;
+}
+
+.footer-brand {
+  color: var(--gold);
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.footer-content p {
+  margin-bottom: 4px;
+  font-size: 0.9rem;
+}
+
+.footer-logo {
+  height: 32px;
+  width: auto;
+
 }
 
 /* ===== Animations ===== */
